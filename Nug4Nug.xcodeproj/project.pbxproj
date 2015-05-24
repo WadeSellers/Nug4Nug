@@ -83,11 +83,12 @@
 		16B0B3471AE37A2500BAC0F3 /* Nug4Nug */ = {
 			isa = PBXGroup;
 			children = (
+				8F61B4DE1B127C88001D40EB /* Storyboard */,
 				16B0B34C1AE37A2500BAC0F3 /* AppDelegate.h */,
 				16B0B34D1AE37A2500BAC0F3 /* AppDelegate.m */,
-				16B0B3521AE37A2500BAC0F3 /* ViewController.h */,
-				16B0B3531AE37A2500BAC0F3 /* ViewController.m */,
-				16B0B3551AE37A2500BAC0F3 /* Main.storyboard */,
+				8F61B4E11B127D21001D40EB /* Custom Classes */,
+				8F61B4DC1B127C52001D40EB /* Controllers */,
+				8F61B4DD1B127C78001D40EB /* Networking */,
 				16B0B3581AE37A2500BAC0F3 /* Images.xcassets */,
 				16B0B35A1AE37A2500BAC0F3 /* LaunchScreen.xib */,
 				16B0B34F1AE37A2500BAC0F3 /* Nug4Nug.xcdatamodeld */,
@@ -120,6 +121,53 @@
 				16B0B3661AE37A2500BAC0F3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F61B4DC1B127C52001D40EB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				16B0B3521AE37A2500BAC0F3 /* ViewController.h */,
+				16B0B3531AE37A2500BAC0F3 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8F61B4DD1B127C78001D40EB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		8F61B4DE1B127C88001D40EB /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8F61B4DF1B127C97001D40EB /* Is it your turn? */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		8F61B4DF1B127C97001D40EB /* Is it your turn? */ = {
+			isa = PBXGroup;
+			children = (
+				8F61B4E01B127CCA001D40EB /* LAST CHECKPOINT */,
+			);
+			name = "Is it your turn?";
+			sourceTree = "<group>";
+		};
+		8F61B4E01B127CCA001D40EB /* LAST CHECKPOINT */ = {
+			isa = PBXGroup;
+			children = (
+				16B0B3551AE37A2500BAC0F3 /* Main.storyboard */,
+			);
+			name = "LAST CHECKPOINT";
+			sourceTree = "<group>";
+		};
+		8F61B4E11B127D21001D40EB /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Custom Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,6 +468,7 @@
 				16B0B36D1AE37A2500BAC0F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16B0B36E1AE37A2500BAC0F3 /* Build configuration list for PBXNativeTarget "Nug4NugTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +477,7 @@
 				16B0B3701AE37A2500BAC0F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
