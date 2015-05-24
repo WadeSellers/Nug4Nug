@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>37742576-3431-4311-A83B-46A3E5A1B58B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Nug4Nug</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>69369B90C8B54395856DCA13126C31977B944059</key>
+		<string>https://github.com/Waderoni/Nug4Nug.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Nug4Nug.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>69369B90C8B54395856DCA13126C31977B944059</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Waderoni/Nug4Nug.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>69369B90C8B54395856DCA13126C31977B944059</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>69369B90C8B54395856DCA13126C31977B944059</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Nug4Nug</string>
+		</dict>
+	</array>
+</dict>
+</plist>
