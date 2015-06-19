@@ -5,7 +5,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Nug4Nug-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -29,7 +29,7 @@
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5ey-C7-HX7">
                                                     <rect key="frame" x="8" y="8" width="50" height="50"/>
-                                                    <color key="backgroundColor" red="0.93333333330000001" green="0.68627450980000004" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="50" id="DYy-WV-Vp3"/>
                                                         <constraint firstAttribute="height" constant="50" id="oNb-UN-7Jd"/>
@@ -49,7 +49,7 @@
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x9c-bb-Iwp">
                                                     <rect key="frame" x="8" y="85" width="584" height="212"/>
-                                                    <color key="backgroundColor" red="0.53333333329999999" green="0.75294117650000003" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" red="0.32856048920000003" green="0.36575965789999998" blue="0.4646784061" alpha="1" colorSpace="calibratedRGB"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wants: example" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Td-ib-5Tj">
                                                     <rect key="frame" x="71" y="22" width="90" height="21"/>
@@ -105,8 +105,12 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="5ey-C7-HX7" firstAttribute="top" secondItem="uOb-7g-Xga" secondAttribute="topMargin" id="7eF-zF-bNV"/>
-                                                <constraint firstItem="x9c-bb-Iwp" firstAttribute="top" secondItem="5ey-C7-HX7" secondAttribute="bottom" constant="17" id="8c4-g7-YO3"/>
+                                                <constraint firstItem="5ey-C7-HX7" firstAttribute="top" secondItem="uOb-7g-Xga" secondAttribute="topMargin" id="7eF-zF-bNV">
+                                                    <variation key="widthClass=compact" constant="3"/>
+                                                </constraint>
+                                                <constraint firstItem="x9c-bb-Iwp" firstAttribute="top" secondItem="5ey-C7-HX7" secondAttribute="bottom" constant="17" id="8c4-g7-YO3">
+                                                    <variation key="widthClass=compact" constant="14"/>
+                                                </constraint>
                                                 <constraint firstItem="x9c-bb-Iwp" firstAttribute="trailing" secondItem="uOb-7g-Xga" secondAttribute="trailingMargin" id="8gJ-ON-hdl"/>
                                                 <constraint firstItem="8Td-ib-5Tj" firstAttribute="top" secondItem="x9c-bb-Iwp" secondAttribute="bottom" constant="32" id="KDD-E5-18q"/>
                                                 <constraint firstItem="x9c-bb-Iwp" firstAttribute="leading" secondItem="uOb-7g-Xga" secondAttribute="leadingMargin" id="OFJ-mn-h5q"/>
@@ -179,7 +183,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="NPd-08-Aao"/>
-                    <navigationItem key="navigationItem" id="NAR-tO-Hhx"/>
+                    <navigationItem key="navigationItem" title="Nug4Nug" id="NAR-tO-Hhx"/>
                     <connections>
                         <outlet property="feedTableView" destination="TLN-JY-CGD" id="EiN-ge-xmr"/>
                     </connections>
@@ -196,6 +200,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hnd-QL-xpX">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.58431372549019611" green="0.72156862745098038" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -206,16 +211,17 @@
             </objects>
             <point key="canvasLocation" x="326" y="357"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Nug4Nug-->
         <scene sceneID="Gyi-L4-XiY">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="CMi-sq-uOo" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="Fl0-Ma-H2m"/>
+                    <navigationItem key="navigationItem" title="Nug4Nug" id="Fl0-Ma-H2m"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="96Q-Nc-EIE">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.87450980392156863" green="0.85490196078431369" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="XIx-G8-HGl"/>
