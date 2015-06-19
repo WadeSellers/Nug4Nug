@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "FeedTableViewCell.h"
 
-@interface ViewController ()
+@interface ViewController () <UITableViewDataSource, UITableViewDelegate>
+
+@property NSArray *tableDataArray;
+@property (weak, nonatomic) IBOutlet UITableView *feedTableView;
 
 @end
 
@@ -17,6 +21,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.feedTableView.delegate = self;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    FeedTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"feedCell"];
+    return cell;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 1;
 }
 
 - (void)didReceiveMemoryWarning {

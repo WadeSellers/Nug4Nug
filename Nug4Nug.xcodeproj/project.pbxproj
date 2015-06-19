@@ -15,6 +15,7 @@
 		16B0B3591AE37A2500BAC0F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16B0B3581AE37A2500BAC0F3 /* Images.xcassets */; };
 		16B0B35C1AE37A2500BAC0F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16B0B35A1AE37A2500BAC0F3 /* LaunchScreen.xib */; };
 		16B0B3681AE37A2500BAC0F3 /* Nug4NugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B0B3671AE37A2500BAC0F3 /* Nug4NugTests.m */; };
+		C7A38E5C1B346D7800B9A846 /* FeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A38E5B1B346D7800B9A846 /* FeedTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		16B0B3611AE37A2500BAC0F3 /* Nug4NugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nug4NugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B0B3661AE37A2500BAC0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16B0B3671AE37A2500BAC0F3 /* Nug4NugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nug4NugTests.m; sourceTree = "<group>"; };
+		C7A38E5A1B346D7800B9A846 /* FeedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewCell.h; sourceTree = "<group>"; };
+		C7A38E5B1B346D7800B9A846 /* FeedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +169,8 @@
 		8F61B4E11B127D21001D40EB /* Custom Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C7A38E5A1B346D7800B9A846 /* FeedTableViewCell.h */,
+				C7A38E5B1B346D7800B9A846 /* FeedTableViewCell.m */,
 			);
 			name = "Custom Classes";
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A38E5C1B346D7800B9A846 /* FeedTableViewCell.m in Sources */,
 				16B0B3511AE37A2500BAC0F3 /* Nug4Nug.xcdatamodeld in Sources */,
 				16B0B34E1AE37A2500BAC0F3 /* AppDelegate.m in Sources */,
 				16B0B3541AE37A2500BAC0F3 /* ViewController.m in Sources */,
