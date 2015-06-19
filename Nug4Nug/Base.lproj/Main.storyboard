@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="I1n-E1-Khy">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -47,7 +48,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x9c-bb-Iwp">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x9c-bb-Iwp">
                                                     <rect key="frame" x="8" y="85" width="584" height="212"/>
                                                     <color key="backgroundColor" red="0.32856048920000003" green="0.36575965789999998" blue="0.4646784061" alpha="1" colorSpace="calibratedRGB"/>
                                                 </imageView>
@@ -130,14 +131,14 @@
                                                     <exclude reference="DOM-AK-cik"/>
                                                 </mask>
                                                 <mask key="constraints">
+                                                    <exclude reference="P8J-Yr-kJQ"/>
+                                                    <exclude reference="h10-Dd-qWX"/>
                                                     <exclude reference="8c4-g7-YO3"/>
                                                     <exclude reference="8gJ-ON-hdl"/>
                                                     <exclude reference="OFJ-mn-h5q"/>
                                                     <exclude reference="KDD-E5-18q"/>
                                                     <exclude reference="Vqg-EO-UId"/>
                                                     <exclude reference="y2b-z5-BhC"/>
-                                                    <exclude reference="P8J-Yr-kJQ"/>
-                                                    <exclude reference="h10-Dd-qWX"/>
                                                 </mask>
                                             </variation>
                                             <variation key="widthClass=compact">
@@ -146,14 +147,14 @@
                                                     <include reference="DOM-AK-cik"/>
                                                 </mask>
                                                 <mask key="constraints">
+                                                    <include reference="P8J-Yr-kJQ"/>
+                                                    <include reference="h10-Dd-qWX"/>
                                                     <include reference="8c4-g7-YO3"/>
                                                     <include reference="8gJ-ON-hdl"/>
                                                     <include reference="OFJ-mn-h5q"/>
                                                     <include reference="KDD-E5-18q"/>
                                                     <include reference="Vqg-EO-UId"/>
                                                     <include reference="y2b-z5-BhC"/>
-                                                    <include reference="P8J-Yr-kJQ"/>
-                                                    <include reference="h10-Dd-qWX"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
