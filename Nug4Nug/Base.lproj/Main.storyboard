@@ -212,7 +212,7 @@
         <!--Messages-->
         <scene sceneID="JaR-Za-vbc">
             <objects>
-                <viewController id="Qoe-rA-aBF" sceneMemberID="viewController">
+                <viewController id="Qoe-rA-aBF" customClass="MessagesViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6TP-WO-Qtu"/>
                         <viewControllerLayoutGuide type="bottom" id="SQZ-ET-eFz"/>
@@ -247,6 +247,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Qoe-rA-aBF" id="OUk-K2-fNW"/>
+                                    <outlet property="delegate" destination="Qoe-rA-aBF" id="BWt-pd-Eyq"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
