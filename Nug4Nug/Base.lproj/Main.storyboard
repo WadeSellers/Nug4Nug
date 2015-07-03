@@ -48,19 +48,10 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x9c-bb-Iwp">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x9c-bb-Iwp">
                                                     <rect key="frame" x="8" y="85" width="584" height="212"/>
                                                     <color key="backgroundColor" red="0.32856048920000003" green="0.36575965789999998" blue="0.4646784061" alpha="1" colorSpace="calibratedRGB"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Wants:" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4KJ-8C-gb9">
-                                                    <rect key="frame" x="71" y="305" width="521" height="55"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="55" id="GoX-tJ-E4d"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wants: example" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Td-ib-5Tj">
                                                     <rect key="frame" x="71" y="22" width="90" height="21"/>
                                                     <constraints>
@@ -122,8 +113,6 @@
                                                     <variation key="widthClass=compact" constant="14"/>
                                                 </constraint>
                                                 <constraint firstItem="x9c-bb-Iwp" firstAttribute="trailing" secondItem="uOb-7g-Xga" secondAttribute="trailingMargin" id="8gJ-ON-hdl"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="4KJ-8C-gb9" secondAttribute="bottom" constant="24" id="Azq-Cu-diG"/>
-                                                <constraint firstItem="4KJ-8C-gb9" firstAttribute="trailing" secondItem="uOb-7g-Xga" secondAttribute="trailingMargin" id="JRM-1j-jEl"/>
                                                 <constraint firstItem="8Td-ib-5Tj" firstAttribute="top" secondItem="x9c-bb-Iwp" secondAttribute="bottom" constant="32" id="KDD-E5-18q"/>
                                                 <constraint firstItem="x9c-bb-Iwp" firstAttribute="leading" secondItem="uOb-7g-Xga" secondAttribute="leadingMargin" id="OFJ-mn-h5q"/>
                                                 <constraint firstItem="1I0-Kw-SfZ" firstAttribute="leading" secondItem="5ey-C7-HX7" secondAttribute="trailing" constant="13" id="OV9-Ef-q1R"/>
@@ -132,8 +121,6 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="8Td-ib-5Tj" secondAttribute="bottom" constant="31" id="Vqg-EO-UId">
                                                     <variation key="widthClass=compact" constant="24"/>
                                                 </constraint>
-                                                <constraint firstItem="4KJ-8C-gb9" firstAttribute="leading" secondItem="1I0-Kw-SfZ" secondAttribute="leading" id="W3X-pN-4vU"/>
-                                                <constraint firstItem="4KJ-8C-gb9" firstAttribute="top" secondItem="x9c-bb-Iwp" secondAttribute="bottom" constant="8" id="WcJ-oF-TRh"/>
                                                 <constraint firstItem="DOM-AK-cik" firstAttribute="top" secondItem="x9c-bb-Iwp" secondAttribute="bottom" constant="28" id="h10-Dd-qWX"/>
                                                 <constraint firstItem="x9c-bb-Iwp" firstAttribute="leading" secondItem="uOb-7g-Xga" secondAttribute="leadingMargin" id="k0S-3b-Dom"/>
                                                 <constraint firstItem="5ey-C7-HX7" firstAttribute="leading" secondItem="uOb-7g-Xga" secondAttribute="leadingMargin" id="q7p-bK-OEo"/>
