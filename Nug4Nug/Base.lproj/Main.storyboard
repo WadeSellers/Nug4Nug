@@ -48,7 +48,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x9c-bb-Iwp">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x9c-bb-Iwp">
                                                     <rect key="frame" x="8" y="85" width="584" height="212"/>
                                                     <color key="backgroundColor" red="0.32856048920000003" green="0.36575965789999998" blue="0.4646784061" alpha="1" colorSpace="calibratedRGB"/>
                                                 </imageView>
@@ -122,6 +122,7 @@
                                                     <variation key="widthClass=compact" constant="24"/>
                                                 </constraint>
                                                 <constraint firstItem="DOM-AK-cik" firstAttribute="top" secondItem="x9c-bb-Iwp" secondAttribute="bottom" constant="28" id="h10-Dd-qWX"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="x9c-bb-Iwp" secondAttribute="bottom" constant="87" id="hEM-Qx-7OJ"/>
                                                 <constraint firstItem="x9c-bb-Iwp" firstAttribute="leading" secondItem="uOb-7g-Xga" secondAttribute="leadingMargin" id="k0S-3b-Dom"/>
                                                 <constraint firstItem="5ey-C7-HX7" firstAttribute="leading" secondItem="uOb-7g-Xga" secondAttribute="leadingMargin" id="q7p-bK-OEo"/>
                                                 <constraint firstItem="5ey-C7-HX7" firstAttribute="centerY" secondItem="1I0-Kw-SfZ" secondAttribute="centerY" id="uT8-No-U2L"/>
@@ -250,6 +251,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Messages" id="k00-ic-j3s"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="messageCenterTableView" destination="epX-v2-OjD" id="dVj-j2-2v2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fwc-X8-J5o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
